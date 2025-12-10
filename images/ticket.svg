@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 431.89 154.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d24a20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        font-family: TTAutonomousMonoEdu-MediumIt, 'TT Autonomous Mono Edu';
+        font-size: 72px;
+        font-style: italic;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        font-family: TTAutonomousMonoEdu-Regular, 'TT Autonomous Mono Edu';
+        font-size: 37.54px;
+      }
+
+      .cls-3 {
+        stroke-width: .8px;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g>
+      <rect class="cls-2" x="129.81" y="-128.81" width="153.78" height="412.4" transform="translate(129.31 284.09) rotate(-90)"/>
+      <ellipse class="cls-1" cx="25.84" cy="77.39" rx="9.64" ry="9.01"/>
+      <path class="cls-3" d="m411.04,154.28h20.45v-9.08c-1.43.53-2.99.82-4.62.82-6.99,0-12.66-5.3-12.66-11.84s5.67-11.84,12.66-11.84c1.63,0,3.19.3,4.62.82v-15.87c-1.43.53-2.99.82-4.62.82-6.99,0-12.66-5.3-12.66-11.84s5.67-11.84,12.66-11.84c1.63,0,3.19.3,4.62.82v-15.87c-1.43.53-2.99.82-4.62.82-6.99,0-12.66-5.3-12.66-11.84s5.67-11.84,12.66-11.84c1.63,0,3.19.3,4.62.82v-15.87c-1.43.53-2.99.82-4.62.82-6.99,0-12.66-5.3-12.66-11.84s5.67-11.84,12.66-11.84c1.63,0,3.19.3,4.62.82V.5h-20.45v153.78Z"/>
+    </g>
+    <text class="cls-4" transform="translate(47.91 80.75)"><tspan x="0" y="0">Sweetsee</tspan></text>
+    <text class="cls-5" transform="translate(53.66 125.69) scale(1.07 1)"><tspan x="0" y="0">sweet + tattoo</tspan></text>
+  </g>
+</svg>

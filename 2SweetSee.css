@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'zDenimINKCollectionVF-TRIAL';
+  src: url('zDenimINKCollectionVF-TRIAL.woff2') format('WOFF2');
+}
+
+/* Глоб.стили  */
+
+body {
+  font-family: zDenimINKCollectionVF-TRIAL, SemiBold;
+  font-size: 24px;
+  margin: 0;
+  background: #fffaf0;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*  Навигация Bootstrap  */
+
+.navbar {
+  background: #f2b5c4 !important;
+  font-size: 18px !important;
+}
+
+.navbar-brand {
+  font-weight: bold !important;
+  font-size: 23px !important;
+}
+
+.nav-link {
+  color: #222 !important;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ---------- Контент ---------- */
+
+.custom-container {
+  display: flex !important;
+  justify-content: center !important;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Блоки секций */
+.section {
+  display: flex;
+  justify-content: center;
+  background: #fffbf3;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+/* ограничивает ширину текста */
+.inner {
+  max-width: 950px;   
+  width: 100%;
+  text-align: left;
+}
+
+/* Кнопка "вверх" */
+.back-top {
+  display: inline-block;
+  text-decoration: none;
+  color: #f06292;
+  border: 1px solid #f06292;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+/* Адаптивность  */
+
+.right-image {
+  text-align: right;
+  margin-top: -230px;
+}
+
+.right-image2 {
+  text-align: right;
+  margin-top: -160px;
+  transform: scale(0.8);
+}
+
+/* На мобильных */
+@media (max-width: 768px) {
+  .right-image {
+    text-align: center;
+    margin-top: 20px !important;
+    margin-left: 0 !important;
+  }
+}
+
+/* Центровка билета */
+.ticket-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}

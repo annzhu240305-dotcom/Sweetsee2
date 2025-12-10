@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>SweetSee — Главная</title>
+  <link rel="stylesheet" href="2SweetSee.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo" data-link="index.html">SweetSee</a>
+    <a href="7catalog.html" data-link="7catalog.html">Каталог сладостей</a>
+    <a href="4Gadanie.html" data-link="4Gadanie.html">Толкование тату</a>
+    <a href="8legal.html" data-link="8legal.html">Юридическая информация</a>
+    <a href="11contact_order.html" data-link="11contact_order.html">Задать вопрос / Сделать заказ</a>
+    <a href="6zadacha.html" class="active">Гадание на задачу</a>
+  </nav>
+    
+  <main>
+    <h2>Размен суммы</h2>
+    <p>Задача 1006. Возможно ли разменять денежную сумму купюрами 500, 100, 10 и монетой 2 руб?</p>
+
+    <input type="number" id="amount" placeholder="Введите сумму, руб.">
+    <button onclick="calculateChange()">Рассчитать</button>
+
+    <div id="result"></div>
+
+  </main>
+
+  <script>
+    function calculateChange() {
+      let amount = parseInt(document.getElementById("amount").value);
+      let result = document.getElementById("result");
+
+      if (isNaN(amount) || amount <= 0) {
+        result.innerHTML = "Плиз, введите положительное число.";
+        return;
+      }
+
+      let res = "";
+      let n500 = Math.floor(amount / 500);
+      amount %= 500;
+
+      let n100 = Math.floor(amount / 100);
+      amount %= 100;
+
+      let n10 = Math.floor(amount / 10);
+      amount %= 10;
+
+      let n2 = Math.floor(amount / 2);
+      amount %= 2;
+
+      if (amount !== 0) {
+        res = "Размен невозможен — остаток не кратен 2 рублям.";
+      } else {
+        res = "Размен возможен:<br>";
+        if (n500 > 0) res += `${n500} × 500 руб.<br>`;
+        if (n100 > 0) res += `${n100} × 100 руб.<br>`;
+        if (n10 > 0) res += `${n10} × 10 руб.<br>`;
+        if (n2 > 0) res += `${n2} × 2 руб.<br>`;
+      }
+
+      result.innerHTML = res;
+    }
+  </script>
+
+  </body>
+</html>

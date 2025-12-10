@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'zDenimINKCollectionVF-TRIAL';
+  src: url('zDenimINKCollectionVF-TRIAL.woff2') format('WOFF2');
+}
+
+nav {
+  background: #f2b5c4;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+nav a.nav-logo {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: auto;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body {
+  font-family: zDenimINKCollectionVF-TRIAL, SemiBold;
+  background-color: #fff9f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+шапка
+header {
+  background-color: #ffb6c1;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-right: 40px auto;
+  font-size: 28px;
+}
+
+nav {
+  background: #f2b5c4;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+таблица
+table {
+  width: 80%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-image:"images\back.png"; фон табл
+  background-size: cover;
+  background-position: center;
+  color: #222;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.8); фон
+}
+
+th {
+  background-color: rgba(255, 200, 210, 0.9);
+  font-size: 18px;
+}
+
+пикчи
+td img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Кнопка “в начало” */
+.back-to-top {
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #ffb6c1;
+  color: #333;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #ffa7b8;
+}
